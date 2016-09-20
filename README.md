@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Maple User Guide
 
 Maple is originally proposed as a testing tool for concurrent programs. During the development of Maple, we also built a dynamic analysis infrastructure as a foundation of Maple, which we believe will also be very useful for others to build their dynamic analysis tools for concurrent programs (e.g. data race detectors, atomicity violation detectors, etc.). In this user guide, we first show you how to use the Maple testing tool. After that, we discuss how to write dynamic analysis tools using our infrastructure. Maple is based on [PIN](http://www.pintool.org/) binary instrumentation tool, thus it can handle unmodified x86 binaries.
@@ -393,4 +394,6 @@ You can test the newly written analysis tool using the same example that we use 
     $ pin -t build-release/example.so -- ~/example/main 2
     All children are joined
 # maple
+=======
+>>>>>>> f623059bf9b82a41cd0148ebd6bf900072df9240
 # maple
