@@ -393,3 +393,4 @@ You can test the newly written analysis tool using the same example that we use 
     $ pin -t build-release/example.so -- ~/example/main 2
     All children are joined
 # maple
+# maple
